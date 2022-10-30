@@ -1,0 +1,58 @@
+body {
+    background-color: #818cf8;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin: 20px;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-size: large;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 15%;
+    height: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 1.5rem;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    width: 15%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+#output {
+    text-align: center;
+    font-size: large;
+}

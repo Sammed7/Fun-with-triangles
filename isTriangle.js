@@ -2,7 +2,7 @@ var angle1 = document.querySelector("#angle1");
 var angle2 = document.querySelector("#angle2");
 var angle3 = document.querySelector("#angle3");
 var CheckBtn = document.querySelector("#check-btn");
-var outputBox = document.querySelector(".output");
+var outputBox = document.querySelector("#output");
 
 
 
