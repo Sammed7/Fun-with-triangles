@@ -1,10 +1,11 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #818cf8;
 }
 
 nav {
-    margin: 0;
-    padding: 0;
+    margin-top: 20px;
     height: 70px;
     background-color: white;
     display: flex;
@@ -13,7 +14,20 @@ nav {
 
 a {
     margin: 20px;
-   
+    padding: 7px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    background-color: #818cf8;
+}
+
+.link-active{
+    background-color: #818cf8;
+    border: 1px solid black;
+    border-radius: 0.5rem;
 }
 
 h1 {
